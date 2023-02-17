@@ -7,10 +7,10 @@ name: Kernel CI
 on:
   workflow_dispatch:
     inputs:
-      repo:
+      repo: https://github.com/No1really/ThunderstormReborn-RM6785
           description: 'Kernel source link'
           required: true
-      branch:
+      branch: full-lto
           description: 'Kernel source branch'
           required: true   
 
@@ -40,7 +40,7 @@ jobs:
 
       - name: Lets compile
         run: |
-          git clone $REPO -b $BRANCH kernel 
-          cd kernel
+          git clone $REPO -b $BRANCH ts 
+          cd ts
           wget  https://raw.githubusercontent.com/No1really/kernel_build_scripts/main/Kernel/RM6785_build_script.sh
           bash build RM6785_build_script.sh

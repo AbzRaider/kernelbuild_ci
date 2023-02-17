@@ -43,4 +43,4 @@ jobs:
           git clone $REPO -b $BRANCH kernel 
           cd kernel
           wget  https://raw.githubusercontent.com/No1really/kernel_build_scripts/main/Kernel/RM6785_build_script.sh
-          bash RM6785_build_script.sh
+          bash build RM6785_build_script.sh

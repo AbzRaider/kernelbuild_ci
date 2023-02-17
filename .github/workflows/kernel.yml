@@ -7,10 +7,10 @@ name: Kernel CI
 on:
   workflow_dispatch:
     inputs:
-      repo: https://github.com/No1really/ThunderstormReborn-RM6785
+      repo:
           description: 'Kernel source link'
           required: true
-      branch: full-lto
+      branch:
           description: 'Kernel source branch'
           required: true   
 
@@ -26,6 +26,7 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
+
 
 
 

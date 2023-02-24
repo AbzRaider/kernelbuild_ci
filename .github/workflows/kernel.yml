@@ -41,5 +41,5 @@ jobs:
         run: |
           git clone $REPO -b $BRANCH kernel 
           cd kernel 
-          wget https://raw.githubusercontent.com/AbzRaider/android_kernel_xiaomi_sweet_SB/11.0/.github/workflows/build.sh
+          wget https://raw.githubusercontent.com/AbzRaider/kernel_realme_x3/msm-4.14/build.sh
           bash build.sh

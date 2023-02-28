@@ -41,5 +41,5 @@ jobs:
         run: |
           git clone $REPO -b $BRANCH kernel 
           cd kernel
-          wget  https://raw.githubusercontent.com/AbzRaider/kernel_build_scripts/main/Kernel/RMX2151_build.sh
-          bash RMX2151_build.sh
+          wget  https://raw.githubusercontent.com/AbzRaider/kernel_realme_Q_oppo6785/10/build.sh
+          bash build.sh

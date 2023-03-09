@@ -41,5 +41,5 @@ jobs:
         run: |
           git clone $REPO -b $BRANCH kernel 
           cd kernel
-          wget  https://raw.githubusercontent.com/AbzRaider/kernel_realme_X2_PRO/lineage-19.1/build_x2P.sh
-          bash build_X2P.sh
+          wget  https://raw.githubusercontent.com/AbzRaider/kernel_realme_X2_PRO/R/build.sh
+          bash build.sh

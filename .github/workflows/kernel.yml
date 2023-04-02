@@ -41,5 +41,5 @@ jobs:
         run: |
           git clone $REPO -b $BRANCH kernel 
           cd kernel
-          wget  https://raw.githubusercontent.com/AbzRaider/kernel_build_scripts/main/Kernel/RM6785_build_script.sh
-          bash RM6785_build_script.sh
+          wget  https://raw.githubusercontent.com/AbzRaider/android_kernel_realme_RMX2001/RELEASE-V5/build.sh
+          bash build.sh

@@ -42,4 +42,4 @@ jobs:
           git clone $REPO -b $BRANCH kernel 
           cd kernel
           wget https://github.com/AbzRaider/android-kernel_Azrael_RM6785/blob/V7/build.sh
-          bash build2.sh
+          bash build.sh
